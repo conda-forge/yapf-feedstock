@@ -1,4 +1,4 @@
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 
 package:
   name: yapf
@@ -7,7 +7,7 @@ package:
 source:
   fn: yapf-{{ version }}.tar.gz
   url: https://github.com/google/yapf/archive/v{{ version }}.tar.gz
-  md5: 5bbf4ce75411cbe8a5ef8b1c160cf34e
+  md5: e6173b24083e905d041c817d9abcb949
 
 build:
   entry_points:
