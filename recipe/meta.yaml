@@ -1,13 +1,15 @@
-{% set version = "0.11.0" %}
+{% set name = "yapf" %}
+{% set version = "0.11.1" %}
+{% set sha256 = "5cbab70d6c5d8323389dd53a4a916db4858e1c004d3015c7009edd8f3335bc51" %}
 
 package:
-  name: yapf
+  name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: yapf-{{ version }}.tar.gz
-  url: https://github.com/google/yapf/archive/v{{ version }}.tar.gz
-  md5: e6173b24083e905d041c817d9abcb949
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://github.com/google/{{ name }}/archive/v{{ version }}.tar.gz
+  sha256: {{ sha256 }}
 
 build:
   entry_points:
