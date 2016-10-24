@@ -1,6 +1,6 @@
 {% set name = "yapf" %}
-{% set version = "0.13.0" %}
-{% set sha256 = "627c25e49dd91274432af77030ef2c6c47f820cb1cbf9b7e8894fdbc2d593f33" %}
+{% set version = "0.13.1" %}
+{% set sha256 = "ce6da59178dd1b49a588af8eb4f0b3f806908bb153164bbf275e760166a5621d" %}
 
 package:
   name: {{ name }}
