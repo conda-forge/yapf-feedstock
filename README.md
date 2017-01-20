@@ -11,6 +11,18 @@ Summary: A formatter for Python files
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/yapf-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/yapf-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/yapf-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/yapf-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/yapf-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/yapf-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/yapf/badges/version.svg)](https://anaconda.org/conda-forge/yapf)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/yapf/badges/downloads.svg)](https://anaconda.org/conda-forge/yapf)
+
 Installing yapf
 ===============
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `yapf` available on your platform 
 ```
 conda search yapf --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/yapf-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/yapf-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/yapf-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/yapf-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/yapf-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/yapf-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/yapf/badges/version.svg)](https://anaconda.org/conda-forge/yapf)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/yapf/badges/downloads.svg)](https://anaconda.org/conda-forge/yapf)
 
 
 Updating yapf-feedstock
