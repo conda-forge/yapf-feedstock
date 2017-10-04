@@ -1,6 +1,6 @@
 {% set name = "yapf" %}
-{% set version = "0.17.0" %}
-{% set sha256 = "dc35343572511e73d2489626e47c4346a2a3a281a261afb3f6ca77399b4d17e3" %}
+{% set version = "0.18.0" %}
+{% set sha256 = '98e2211a96ba1e999feff5b5d58400d0f68f47612e4f520d9d748b6da1bd1fe3' %}
 
 package:
   name: {{ name }}
@@ -14,9 +14,9 @@ source:
 build:
   entry_points:
     - yapf = yapf:run_main
-
   number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
+  noarch: python
 
 requirements:
   build:
@@ -39,3 +39,4 @@ about:
 extra:
   recipe-maintainers:
     - vamega
+    - ericdill
