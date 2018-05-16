@@ -14,12 +14,15 @@ Summary: A formatter for Python files
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/yapf-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/yapf-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/yapf-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/yapf-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/yapf/badges/version.svg)](https://anaconda.org/conda-forge/yapf)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/yapf/badges/downloads.svg)](https://anaconda.org/conda-forge/yapf)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-yapf-green.svg)](https://anaconda.org/conda-forge/yapf) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/yapf.svg)](https://anaconda.org/conda-forge/yapf) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/yapf.svg)](https://anaconda.org/conda-forge/yapf) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/yapf.svg)](https://anaconda.org/conda-forge/yapf) |
 
 Installing yapf
 ===============
