@@ -21,8 +21,7 @@ build:
 requirements:
   build:
     - python
-    - setuptools
-
+    - pip
   run:
     - python
 
