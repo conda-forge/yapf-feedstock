@@ -1,6 +1,6 @@
 {% set name = "yapf" %}
-{% set version = "0.30.0" %}
-{% set sha256 = "9f561af26f8d27c3a334d3d2ee8947b8826a86691087e447ce483512d834682c" %}
+{% set version = "0.31.0" %}
+{% set sha256 = "e6330f89f024615b102f3140e50a1b864196c4d9d8e29ace4eaa234feec4c924" %}
 
 package:
   name: {{ name }}
@@ -19,7 +19,7 @@ build:
   noarch: python
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
