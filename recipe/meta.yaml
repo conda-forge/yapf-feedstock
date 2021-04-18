@@ -20,10 +20,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >= 2.7
     - pip
   run:
-    - python
+    - python >= 2.7
 
 test:
   commands:
@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://github.com/google/yapf
-  license: Apache 2.0
+  license: Apache-2.0
   license_file: LICENSE
   summary: A formatter for Python files
 
