@@ -20,15 +20,17 @@ build:
 
 requirements:
   host:
-    - python >=2.7
+    - python >=3.7
     - pip
   run:
-    - python >=2.7
+    - tomli >=2.0.1
+    - python >=3.7
 
 test:
   commands:
     - yapf --help
     - yapf --version
+    - pip check
 
 about:
   home: https://github.com/google/yapf
