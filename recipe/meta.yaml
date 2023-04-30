@@ -31,6 +31,8 @@ test:
     - yapf --help
     - yapf --version
     - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/google/yapf
