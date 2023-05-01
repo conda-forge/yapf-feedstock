@@ -14,21 +14,25 @@ source:
 build:
   entry_points:
     - yapf = yapf:run_main
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
 requirements:
   host:
-    - python >=2.7
+    - python >=3.7
     - pip
   run:
-    - python >=2.7
+    - tomli >=2.0.1
+    - python >=3.7
 
 test:
   commands:
     - yapf --help
     - yapf --version
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/google/yapf
