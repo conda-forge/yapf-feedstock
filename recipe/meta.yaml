@@ -25,6 +25,7 @@ requirements:
   run:
     - tomli >=2.0.1
     - python >=3.7
+    - importlib-metadata >=6.6.0
 
 test:
   commands:
